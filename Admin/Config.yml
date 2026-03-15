@@ -1,10 +1,9 @@
-
-  backend:
+backend:
   name: github
-  repo: claudia-py/aprn# Remplacez par votre chemin GitHub
-  branch: main # ou master
-  base_url: https://aprn-gamma.vercel.app # L'URL de votre site une fois déployé
-  auth_endpoint: api/auth
+  repo: Claudia-py/aprn # Remplacez par votre vrai nom de dépôt
+  branch: main
+  base_url: https://github-os-auth.vercel.app
+  
 
 
 media_folder: "Images" # dossier où seront stockées les images
@@ -21,5 +20,4 @@ collections:
       - { label: "Date de publication", name: "date", widget: "datetime" }
       - { label: "Image à la une", name: "image", widget: "image", required: false }
       - { label: "Extrait", name: "excerpt", widget: "text", required: false }
-      - { label: "Contenu", name: "body", widget: "markdown" }
-base_url: https://github-os-auth.vercel.app
+      - { label: "Contenu", name: "body", widget: "markdow 
