@@ -22,3 +22,4 @@ collections:
       - { label: "Image à la une", name: "image", widget: "image", required: false }
       - { label: "Extrait", name: "excerpt", widget: "text", required: false }
       - { label: "Contenu", name: "body", widget: "markdown" }
+base_url: https://github-os-auth.vercel.app
