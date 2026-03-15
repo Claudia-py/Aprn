@@ -1,9 +1,9 @@
 
   backend:
   name: github
-  repo: votre-nom-utilisateur/nom-du-depot # Remplacez par votre chemin GitHub
+  repo: claudia-py/aprn# Remplacez par votre chemin GitHub
   branch: main # ou master
-  base_url: https://votre-site.vercel.app # L'URL de votre site une fois déployé
+  base_url: https://aprn-gamma.vercel.app # L'URL de votre site une fois déployé
   auth_endpoint: api/auth
 
 
