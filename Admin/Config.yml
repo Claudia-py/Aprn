@@ -11,9 +11,9 @@ media_folder: "images/uploads" # dossier où seront stockées les images
 public_folder: "/images/uploads"
 
 collections:
-  - name: "posts" # utilisé pour les routes
+  - name: "Posts" # utilisé pour les routes
     label: "Articles" # nom dans l'interface
-    folder: "posts" # dossier où seront stockés les fichiers markdown
+    folder: "Posts" # dossier où seront stockés les fichiers markdown
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
